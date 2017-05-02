@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "OSD";
+  src:url("/Fonts/osd_mono.ttf");
+}
+@font-face {
+  font-family: "Dventure";
+  src:url("/Fonts/3Dventure.ttf");
+}
+@font-face {
+  font-family: "Wonder";
+  src:url("/Fonts/8-bit_wonder.TTF");
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  /*background: url("arcade.jpg");*/
+  background-color: #161617;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #dad8e3;
+
+}
+
+
+.banner {
+  border-style: solid;
+  align-items: center;
+  position: static;
+  padding: 2px 4px;
+}
+
+.schedule {
+  margin-top: 5px;
+  /*border-style: solid;*/
+  display: inline-block;
+  position: relative;
+  width: 32%;
+  padding: 2px 4px;
+  float: right;
+
+}
+.schedule h3 {
+  margin: 2px;
+  padding: 2px;
+  text-align: center;
+  font-family: Wonder;
+  font-size: 24px;
+  color: #F46766;
+}
+
+.list {
+  /*border-style: solid;*/
+  padding: 2px 4px;
+  font-family: OSD;
+  font-size: 18px;
+  color: #4DB0F2;
+}
+
+.main_body {
+  margin-top: 5px;
+  /*border-style: solid;*/
+  /*display: inline-block;*/
+  width: 65%;
+  padding: 2px 4px;
+  float: left;
+  text-align: left;
+  font-family: Wonder;
+  font-size: 36px;
+  color: #F46766;
+}
+
+.main_body h3 {
+  text-align: center;
+  margin: 2px;
+  padding: 2px;
+}
+
+.now {
+  border-style: solid;
+  padding: 2px 4px;
+  margin: 2px 4px;
+  height: 400px;
+}
+
+.happening {
+  font-family: OSD;
+  font-size: 28px;
+  color: #4DB0F2;
+}
+
+.twitch {
+  display: inline-block;
+  border-style: solid;
+  padding: 2px 4px;
+  margin: 2px 4px;
+  width: 47%;
+  float: left;
+}
+
+.fake_twitch {
+  margin: 2px 4px;
+  height:5em;
+  background-color: gray;
+}
+
+.twitter {
+  display: inline-block;
+  border-style: solid;
+  padding: 2px 4px;
+  margin: 2px 4px;
+  width: 47%;
+  float: right;
+}
+
+.fake_twitter {
+  margin: 2px 4px;
+  height:5em;
+  background-color: teal;
+}
