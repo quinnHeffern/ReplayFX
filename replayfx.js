@@ -119,13 +119,15 @@ var baseurl = "http://replayfxcalendar.azurewebsites.net/";
 
     var tem = $("<div></div>");
 
-    if(numUpcomingEvents<10)
+    if(numUpcomingEvents<8)
     {
     title.clone().appendTo(tem);
     $("<br />").appendTo(tem);
     startTime.clone().appendTo(tem);
+
+    location.clone().appendTo(tem);
     $("<br />").appendTo(tem);
-    $("<br />").appendTo(tem);
+
     tem.appendTo(".list");
     numUpcomingEvents++;
     }
