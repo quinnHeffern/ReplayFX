@@ -1,14 +1,14 @@
 @font-face {
   font-family: "OSD";
-  src:url("/Fonts/osd_mono.ttf");
+  src:url("Fonts/osd_mono.ttf");
 }
 @font-face {
   font-family: "Dventure";
-  src:url("/Fonts/3Dventure.ttf");
+  src:url("Fonts/3Dventure.ttf");
 }
 @font-face {
   font-family: "Wonder";
-  src:url("/Fonts/8-bit_wonder.TTF");
+  src:url("Fonts/8-bit_wonder.TTF");
 }
 
 body {
@@ -54,6 +54,8 @@ body {
   font-family: OSD;
   font-size: 18px;
   color: #4DB0F2;
+  
+  overflow:hidden;
 }
 
 .main_body {
