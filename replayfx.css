@@ -13,14 +13,13 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  /*background: url("arcade.jpg");*/
+  background: url("Mario.png");
   background-color: #161617;
   background-repeat: no-repeat;
   background-size: cover;
   color: #dad8e3;
 
 }
-
 
 .banner {
   border-style: solid;
@@ -29,16 +28,18 @@ body {
   padding: 2px 4px;
 }
 
-.schedule {
+.schedule_panel {
   margin-top: 5px;
   /*border-style: solid;*/
   display: inline-block;
   position: relative;
   width: 32%;
+  height: 645px;
   padding: 2px 4px;
   float: right;
-
+  background-color: rgba(0,0,0,0.7);
 }
+
 .schedule h3 {
   margin: 2px;
   padding: 2px;
@@ -46,6 +47,7 @@ body {
   font-family: Wonder;
   font-size: 24px;
   color: #F46766;
+
 }
 
 .list {
@@ -78,10 +80,11 @@ body {
 }
 
 .now {
-  border-style: solid;
+  /*border-style: solid;*/
   padding: 2px 4px;
   margin: 2px 4px;
   height: 400px;
+  background-color: rgba(0,0,0,0.7);
 }
 
 .happening {
@@ -92,26 +95,33 @@ body {
 
 .twitch {
   display: inline-block;
-  border-style: solid;
+  /*border-style: solid;*/
   padding: 2px 4px;
   margin: 2px 4px;
   width: 47%;
   float: left;
+  background-color: rgba(0,0,0,0.7);
 }
 
 .fake_twitch {
   margin: 2px 4px;
   height:5em;
-  background-color: gray;
+  /*background-color: gray;*/
+}
+
+.video {
+  min-height: 100%;
+  min-width: 1005;
 }
 
 .twitter {
   display: inline-block;
-  border-style: solid;
+  /*border-style: solid;*/
   padding: 2px 4px;
   margin: 2px 4px;
   width: 47%;
   float: right;
+  background-color: rgba(0,0,0,0.7);
 }
 
 .fake_twitter {
