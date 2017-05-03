@@ -21,15 +21,15 @@ body {
   border-width: 0px;
 }
 
+.container {
+  border-style: solid;
+  border-color: red;
+  width: 100%;
+}
+
 .panel {
   border-radius: 5px;
 }
-
-/*body div {
-  border-style: solid;
-  border-width: 2px;
-  border-color: red;
-}*/
 
 .banner {
   border-style: solid;
@@ -48,6 +48,7 @@ body {
   padding: 2px 2px;
   float: right;
   background-color: rgba(0,0,0,0.7);
+  overflow: hidden;
 }
 
 .schedule h3 {
@@ -66,8 +67,6 @@ body {
   font-family: OSD;
   font-size: 18px;
   color: #4DB0F2;
-
-  overflow:hidden;
 }
 
 .main_body {
@@ -168,4 +167,5 @@ body {
   margin: 2px 4px;
   height:5em;
   background-color: teal;
+  border-radius: 5px;
 }
