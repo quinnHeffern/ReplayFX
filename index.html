@@ -3,8 +3,10 @@
 <html>
   <head>
     <title></title>
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="replayfx.css" type="text/css" rel="stylesheet">
     <script src="jquery-3.2.1.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
     <script src="replayfx.js"></script>
     <script src="getSchedule.js"></script></script>
   </head>
@@ -12,21 +14,34 @@
     <div class="container">
     <div class="main_body">
       <div class="now panel">
-        <div class="happening">
-          <h3>Now Happening</h3>
-          Dethlehem
-        </div>
-        <div class="featured">
-          <h3>Featured Events</h3>
-          LOOK AT ME!
-        </div>
-        <div class="leaderBoard">
-          <h3>Leader Board</h3>
-          HOORAY!
-        </div>
-        <div class="announcement">
-          <h3>Announcements</h3>
-          FIREEEEEE!!!!!!!!
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval=3000>
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <div class="happening">
+                <h3>Now Happening</h3>
+                Dethlehem
+              </div>
+            </div>
+            <div class="item">
+              <div class="featured">
+                <h3>Featured Events</h3>
+                LOOK AT ME!
+              </div>
+            </div>
+            <div class="item">
+              <div class="leaderBoard">
+                <h3>Leader Board</h3>
+                HOORAY!
+              </div>
+            </div>
+            <div class="item">
+              <div class="announcement">
+                <h3>Announcements</h3>
+                FIREEEEEE!!!!!!!!
+              </div>
+            </div>
+          </div><!--END OF CAROUSEL-->
         </div>
       </div>
       <div class="twitch panel">

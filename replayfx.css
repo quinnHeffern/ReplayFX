@@ -91,6 +91,14 @@ body {
   color: #F46766;
 }
 
+.main_body h3 {
+  text-align: center;
+  margin: 2px;
+  padding: 2px;
+  font-family: Wonder;
+  color: #F46766;
+}
+
 .now {
   /*border-style: solid;*/
   padding: 2px 4px;
@@ -106,7 +114,7 @@ body {
   padding: 5px 10px;
 }
 
-.happening {
+/*.happening {
   display: none;
 }
 .featured {
@@ -117,7 +125,7 @@ body {
 }
 .announcement {
   display: none;
-}
+}*/
 
 .twitch {
   display: inline-block;
